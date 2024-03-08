@@ -25,12 +25,10 @@ class Medicamento {
   }
 }
 
-// Crear instancias de las personas y los medicamentos
 let Pancracio = new PersonaA('Pancracio');
 let Manolo = new PersonaB('Manolo');
 let paracetamol = new Medicamento('Paracetamol');
 let ibuprofeno = new Medicamento('Ibuprofeno');
 
-// Realizar ventas de medicamentos a las personas
 Pancracio.comprarMedicamento(paracetamol);
 Manolo.comprarMedicamento(ibuprofeno);
