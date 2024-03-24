@@ -94,7 +94,7 @@ function mostrarSalarioTotal() {
 
 
 const persona = new Persona('Juan', 30);
-const empleado = new Empleado('Pedro', 2000);
+const empleado = new Empleado('Pedro', 0);
 const departamento = new Departamento('Ventas');
 departamento.agregarEmpleado(empleado);
 
