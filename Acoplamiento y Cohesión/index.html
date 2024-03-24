@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Departamento de Empleados</h1>
+
+    <div id="formulario">
+        <label for="nombreEmpleado">Nombre del Empleado:</label>
+        <input type="text" id="nombreEmpleado"><br><br>
+        
+        <label for="salarioEmpleado">Salario del Empleado:</label>
+        <input type="number" id="salarioEmpleado"><br><br>
+
+        <label for="departamentoEmpleado">Departamento:</label>
+        <select id="departamentoEmpleado">
+            <option value="Ventas">Ventas</option>
+            <option value="Recursos Humanos">Recursos Humanos</option>
+            <option value="Tecnología">Tecnología</option>
+            <!-- Agrega más opciones según tus necesidades -->
+        </select><br><br>
+        
+        <button onclick="agregarEmpleado()">Agregar Empleado</button>
+    </div>
+
+    <div id="nuevoEmpleado">
+        <h2>Nuevo Empleado</h2>
+        <p id="nombreNuevoEmpleado">-</p>
+        <p id="nombreDepartamentoEmpleado">-</p>
+    </div>
+    
+    <div id="resultados">
+        <h2>Salario Total del Departamento</h2>
+        <p id="salarioTotal">-</p>
+    </div>
+    
+    <script src="prob.js"></script>
+</body>
+</html>
